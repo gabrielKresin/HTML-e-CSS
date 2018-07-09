@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Cabeçalho -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulários</title>
+</head>
+
+<!-- Conteúdo -->
+<body>
+    
+    <!-- Formulário -->
+    <form action="http://www.proway.com.br">
+        
+        <!-- Dados pessoais -->
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label>Nome</label>
+            <input type="text" required>
+            <br><br>
+
+            <label>Nascimento</label>
+            <input type="date">
+            <br><br>
+
+            <label>Email</label>
+            <input type="email" required>
+            <br><br>
+        </fieldset>
+
+        <!-- Cursos -->
+        <fieldset>
+            <legend>Cursos</legend>
+
+            <input type="checkbox">
+            <label >Java</label>
+
+            <input type="checkbox">
+            <label >PHP</label>
+
+            <input type="checkbox">
+            <label >C#</label>
+
+            <input type="checkbox">
+            <label >HTML e CSS</label>
+        </fieldset>
+
+        <!-- Escolha de sistema operacional -->
+        <fieldset>
+            <legend>Sistema Operacional</legend>
+
+            <input type="radio" name="SO">
+            <label>Windows</label>
+
+            <input type="radio" name="SO">
+            <label>MacOS</label>
+
+            <input type="radio" name="SO">
+            <label>Linux</label>
+        </fieldset>
+
+        <!-- Turno -->
+        <fieldset>
+                <legend>Turnos</legend>
+
+                <select>
+                    <option>Selecione o turno</option>
+                    <option>Matutino</option>
+                    <option>Vespertino</option>
+                    <option>Noturno</option>
+                </select>
+                
+        </fieldset>
+
+        <!-- Informações complementares -->
+        <fieldset>
+            <legend>Informações Complementares</legend>
+
+            <textarea placeholder="Digite aqui..."></textarea>
+        </fieldset>
+
+        <!-- Botões -->
+        <fieldset>
+            <input type="submit" value="Realizar cadastro">
+            <input type="reset" value="Limpar formulário">
+            <input type="button" value="Só funciona com JS">
+        </fieldset>
+
+    </form>
+
+    <!-- Útil: w3 school -->
+    <!-- Útil: html.net -->
+    <!-- Útil: Mozilla HTML developper -->
+
+</body>
+
+</html>

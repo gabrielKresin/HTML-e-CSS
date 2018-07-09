@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Cabeçalho -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Float</title>
+</head>
+
+<!-- CSS -->
+<style>
+    
+    #principal{
+        background-color: blueviolet;
+        overflow: auto;
+    }
+
+    #esquerda, #direita,#quebra{
+        width: 250px;
+        height: 250px;
+        border: solid 5px black;
+    }
+
+    #esquerda{
+        background-color: red;
+        float: left;        
+    }
+
+    #direita{
+        background-color: seagreen;
+        float: right;
+    }
+
+    #quebra{
+        background-color: mintcream;
+        clear: both;
+    }
+
+</style>
+
+
+<!-- Conteúdo -->
+<body>
+    
+    <div id="principal">
+
+        <div id="esquerda"></div>
+        <div id="direita"></div>
+        <div id="quebra"></div>
+
+    </div>
+    
+
+</body>
+
+</html>
